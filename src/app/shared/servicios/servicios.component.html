@@ -1,0 +1,23 @@
+<div class="container text-center">
+  <table class="table align-middle">
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Status</th>
+          <th scope="col">Imagen</th>
+        </tr>
+      </thead>
+      <tbody>
+          @for (personaje of personajes; track personaje.id) {
+              <tr>
+                <td>{{personaje.name}}</td>
+                <td>{{personaje.status}}</td>
+                <td><img src="{{personaje.image}}" width="100px" height="100px"></td>
+              </tr>
+              
+          } @empty {
+              Empty list of fila
+          }
+      </tbody>
+  </table>
+</div>   

@@ -1,0 +1,17 @@
+.mision-vision{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+#mision, #vision{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: rgb(0, 0, 0, 0.15) ;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 50%;
+    display: block;
+    align-items: center;
+}
