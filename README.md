@@ -1,5 +1,4 @@
 # Taller11Angular
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
 
 ![image](https://github.com/Jehosafat/TallerAngular/assets/86856104/372f34d1-0640-4b64-a251-14107a6e3bd7)
 
